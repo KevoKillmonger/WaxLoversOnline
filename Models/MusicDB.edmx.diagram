@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8b729d6fb9cf48d388c1d18e085d126d" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="MVCMUSICSTOREModel.Album" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCMUSICSTOREModel.Artist" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCMUSICSTOREModel.Cart" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCMUSICSTOREModel.Genre" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCMUSICSTOREModel.OrderDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCMUSICSTOREModel.Order" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="MVCMUSICSTOREModel.FK__Album__ArtistId__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCMUSICSTOREModel.FK_Album_Genre" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCMUSICSTOREModel.FK_Cart_Album" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCMUSICSTOREModel.FK_OrderDetail_Album" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCMUSICSTOREModel.FK__InvoiceLi__Invoi__2F10007B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
