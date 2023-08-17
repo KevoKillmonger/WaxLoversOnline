@@ -2,7 +2,6 @@
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin;
 using Owin;
-using System;
 using WaxLoversOnline.Models;
 
 [assembly: OwinStartupAttribute(typeof(WaxLoversOnline.Startup))]
